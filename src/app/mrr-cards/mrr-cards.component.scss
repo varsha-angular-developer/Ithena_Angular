@@ -1,0 +1,41 @@
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mrr-container {
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mrr-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .mrr-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .arrow-up {
+    color: green;
+    font-size: 20px;
+  }
+  
+  .percentage {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  h4 {
+    margin: 5px 0;
+  }
+  
